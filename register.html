@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="register-page">
+    <div class="container">
+        <h2>Register</h2>
+        <div class="input-group">
+            <span class="icon">👤</span>
+            <input type="text" id="register-username" placeholder="Username">
+        </div>
+        <div class="input-group">
+            <span class="icon">📧</span>
+            <input type="email" id="register-email" placeholder="Email">
+        </div>
+        <div class="input-group">
+            <span class="icon">🔒</span>
+            <input type="password" id="register-password" placeholder="Password">
+        </div>
+        <div class="input-group">
+            <span class="icon">🔒</span>
+            <input type="password" id="register-confirm-password" placeholder="Confirm Password">
+        </div>
+        <p id="register-error" class="error-message"></p>
+        <button onclick="registerUser()">Register</button>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
